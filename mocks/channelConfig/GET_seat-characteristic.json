@@ -1,0 +1,49 @@
+{
+  "name": "/ApplicationList/seatcharacteristic",
+  "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/ApplicationList/seatcharacteristic",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "ApplicationList",
+        "seatcharacteristic"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/ApplicationList/seatcharacteristic",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "ApplicationList",
+            "seatcharacteristic"
+          ]
+        }
+      },
+      "status": "OK",
+      "code": 200,
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [],
+      "body": "{\n  \"key\": \"seatcharacteristic\",\n  \"content\": [\n    {\n      \"code\": \"W\",\n      \"seatcharacteristic_pt-BR\": \"Janela\",\n      \"seatcharacteristic_en-US\": \"Window\",\n      \"seatcharacteristic_es-ES\": \"Ventana\"\n    },\n    {\n      \"code\": \"9\",\n      \"seatcharacteristic_pt-BR\": \"Meio\",\n      \"seatcharacteristic_en-US\": \"Middle\",\n      \"seatcharacteristic_es-ES\": \"Medio\"\n    },\n    {\n      \"code\": \"A\",\n      \"seatcharacteristic_pt-BR\": \"Corredor\",\n      \"seatcharacteristic_en-US\": \"Aisle\",\n      \"seatcharacteristic_es-ES\": \"Pasillo\"\n    },\n    {\n      \"code\": \"E\",\n      \"seatcharacteristic_pt-BR\": \"Saída emergência\",\n      \"seatcharacteristic_en-US\": \"Emergency exit\",\n      \"seatcharacteristic_es-ES\": \"Salida de emergencia\"\n    },\n    {\n      \"code\": \"29\",\n      \"seatcharacteristic_pt-BR\": \"Não Reclinável\",\n      \"seatcharacteristic_en-US\": \"Non reclining\",\n      \"seatcharacteristic_es-ES\": \"No reclinable\"\n    }\n  ]\n}"
+    }
+  ]
+}

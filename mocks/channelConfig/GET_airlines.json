@@ -1,0 +1,49 @@
+{
+  "name": "/ApplicationList/Airlines",
+  "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/ApplicationList/Airlines",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "ApplicationList",
+        "Airlines"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/ApplicationList/Airlines",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "ApplicationList",
+            "Airlines"
+          ]
+        }
+      },
+      "status": "OK",
+      "code": 200,
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [],
+      "body": "{\n  \"key\": \"Airlines\",\n  \"content\": [\n    {\n      \"IATACode\": \"G3\",\n      \"name\": \"GOL Linhas Aéreas\",\n      \"shortName\": \"GOL\",\n      \"ffpName\": \"Smiles\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 9,\n      \"ffpNumberMaxLenght\": 9\n    },\n    {\n      \"IATACode\": \"AR\",\n      \"name\": \"Aerolineas Argentinas\",\n      \"shortName\": \"Aerolineas Argentinas\",\n      \"ffpName\": \"Aerolíneas Plus\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 8,\n      \"ffpNumberMaxLenght\": 8\n    },\n    {\n      \"IATACode\": \"AA\",\n      \"name\": \"American Airlines\",\n      \"shortName\": \"American\",\n      \"ffpName\": \"AAdvantage®\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 7,\n      \"ffpNumberMaxLenght\": 7\n    },\n    {\n      \"IATACode\": \"AF\",\n      \"name\": \"Air France\",\n      \"shortName\": \"Air France\",\n      \"ffpName\": \"FlyingBlue\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 10,\n      \"ffpNumberMaxLenght\": 10\n    },\n    {\n      \"IATACode\": \"KL\",\n      \"name\": \"KLM\",\n      \"shortName\": \"KLM\",\n      \"ffpName\": \"FlyingBlue\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 10,\n      \"ffpNumberMaxLenght\": 10\n    },\n    {\n      \"IATACode\": \"AM\",\n      \"name\": \"Aeromexico\",\n      \"shortName\": \"Aeromexico\",\n      \"ffpName\": \"AeroMexico Rewards\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 9,\n      \"ffpNumberMaxLenght\": 9\n    },\n    {\n      \"IATACode\": \"CM\",\n      \"name\": \"Compania Panamena de Aviacion\",\n      \"shortName\": \"Copa Airlines\",\n      \"ffpName\": \"Connect Miles\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 9,\n      \"ffpNumberMaxLenght\": 9\n    },\n    {\n      \"IATACode\": \"EK\",\n      \"name\": \"Emirates\",\n      \"shortName\": \"Emirates\",\n      \"ffpName\": \"Skywards\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 9,\n      \"ffpNumberMaxLenght\": 10\n    },\n    {\n      \"IATACode\": \"KE\",\n      \"name\": \"Korean Air\",\n      \"shortName\": \"Korean Air\",\n      \"ffpName\": \"SkyPass\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 9,\n      \"ffpNumberMaxLenght\": 12\n    },\n    {\n      \"IATACode\": \"TP\",\n      \"name\": \"TAP Portugal\",\n      \"shortName\": \"TAP Portugal\",\n      \"ffpName\": \"TAP Mile&Go\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 9,\n      \"ffpNumberMaxLenght\": 9\n    },\n    {\n      \"IATACode\": \"SA\",\n      \"name\": \"South African Airways\",\n      \"shortName\": \"South African\",\n      \"ffpName\": \"Voyager\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 6,\n      \"ffpNumberMaxLenght\": 9\n    },\n    {\n      \"IATACode\": \"ET\",\n      \"name\": \"Ethiopian Airlines\",\n      \"shortName\": \"Ethiopian\",\n      \"ffpName\": \"Sheba\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 11,\n      \"ffpNumberMaxLenght\": 11\n    },\n    {\n      \"IATACode\": \"AV\",\n      \"name\": \"Avianca Airlines\",\n      \"shortName\": \"Avianca\",\n      \"ffpName\": \"LifeMiles\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 9,\n      \"ffpNumberMaxLenght\": 11\n    },\n    {\n      \"IATACode\": \"UX\",\n      \"name\": \"Air Europa Líneas Aéreas\",\n      \"shortName\": \"Air Europa\",\n      \"ffpName\": \"SUMA\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 9,\n      \"ffpNumberMaxLenght\": 11\n    },\n    {\n      \"IATACode\": \"AC\",\n      \"name\": \"Air Canada\",\n      \"shortName\": \"Air Canada\",\n      \"ffpName\": \"Aeroplan\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 9,\n      \"ffpNumberMaxLenght\": 9\n    },\n    {\n      \"IATACode\": \"TK\",\n      \"name\": \"Turkish Airlines\",\n      \"shortName\": \"TK\",\n      \"ffpName\": \"Miles&Smiles\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 9,\n      \"ffpNumberMaxLenght\": 9\n    },\n    {\n      \"IATACode\": \"AT\",\n      \"name\": \"Royal Air Maroc\",\n      \"shortName\": \"Air Maroc\",\n      \"ffpName\": \"Safar Flyer\",\n      \"accrualEnabled\": true,\n      \"ffpNumberMinLenght\": 8,\n      \"ffpNumberMaxLenght\": 9\n    }\n  ]\n}"
+    }
+  ]
+}

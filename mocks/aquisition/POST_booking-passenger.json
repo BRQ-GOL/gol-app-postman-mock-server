@@ -1,0 +1,51 @@
+{
+  "name": "/Booking/passenger",
+  "request": {
+    "method": "POST",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/api/Booking/passenger",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "api",
+        "Booking",
+        "passenger"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/api/Booking/passenger",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "api",
+            "Booking",
+            "passenger"
+          ]
+        }
+      },
+      "status": "OK",
+      "code": 200,
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [],
+      "body": "{\n  \"success\": true,\n  \"response\": {\n    \"execution\": \"3136e1bb-39ea-4528-a108-46481b6aef07\",\n    \"passengerUpdateResponse\": {\n      \"messages\": [],\n      \"passengers\": {\n        \"passengers\": [\n          {\n            \"passengerIndex\": 1,\n            \"passengerNameNumber\": \"01.01\",\n            \"passengerDetails\": {\n              \"firstName\": \"JOHN\",\n              \"lastName\": \"DOE\"\n            },\n            \"passengerInfo\": {\n              \"dateOfBirth\": \"2000-01-01\",\n              \"gender\": \"MALE\",\n              \"type\": \"ADT\",\n              \"emails\": [\n                \"johndoe@gmail.com\"\n              ],\n              \"phones\": [\n                {\n                  \"type\": \"MOBILE\",\n                  \"countryCode\": \"55\",\n                  \"areaCode\": \"11\",\n                  \"number\": \"988889999\",\n                  \"extension\": \"\"\n                }\n              ]\n            },\n            \"preferences\": {\n              \"specialPreferences\": {\n                \"specialRequests\": []\n              },\n              \"passengerFrequentFlyerDetails\": []\n            },\n            \"documentInfo\": {\n              \"issuingCountry\": \"BR\",\n              \"countryOfBirth\": \"BR\",\n              \"documentNumber\": \"01234567890\",\n              \"documentType\": \"I\",\n              \"nationality\": \"BR\"\n            }\n          }\n        ],\n        \"businessLoyalty\": {}\n      },\n      \"warnings\": {}\n    }\n  },\n  \"notifications\": []\n}"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "name": "/Booking/flights-select",
+  "request": {
+    "method": "POST",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/api/Booking/flights-select",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "api",
+        "Booking",
+        "flights-select"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/api/Booking/flights-select",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "api",
+            "Booking",
+            "flights-select"
+          ]
+        }
+      },
+      "status": "OK",
+      "code": 200,
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [],
+      "body": "{\n  \"success\": true,\n  \"response\": {\n    \"execution\": \"e7915a8f-04b2-4305-8e49-fe459d8df4a2\",\n    \"itineraryResult\": {\n      \"messages\": [],\n      \"itineraryParts\": [\n        {\n          \"segments\": [\n            {\n              \"segmentOfferInformation\": {\n                \"flightsMiles\": 228,\n                \"awardFare\": false\n              },\n              \"duration\": 65,\n              \"cabinClass\": \"Economy\",\n              \"equipment\": \"73G\",\n              \"flight\": {\n                \"flightNumber\": 1004,\n                \"operatingFlightNumber\": 1004,\n                \"airlineCode\": \"G3\",\n                \"operatingAirlineCode\": \"G3\",\n                \"stopAirports\": []\n              },\n              \"origin\": \"CGH\",\n              \"destination\": \"SDU\",\n              \"departure\": \"2026-03-19T06:50:00\",\n              \"arrival\": \"2026-03-19T07:55:00\",\n              \"bookingClass\": \"P\",\n              \"layoverDuration\": 0,\n              \"fareBasis\": \"PNGIAG2J\",\n              \"subjectToGovernmentApproval\": false,\n              \"fareComponentBeginAirport\": \"CGH\",\n              \"fareComponentEndAirport\": \"SDU\",\n              \"fareComponentDirectionality\": \"FROM\",\n              \"@type\": \"Segment\"\n            }\n          ],\n          \"stops\": 0,\n          \"totalDuration\": 65,\n          \"connectionInformations\": [],\n          \"bookingClass\": \"P\",\n          \"programIDs\": [\n            \"247466\"\n          ],\n          \"programCodes\": [\n            \"CFFG3\"\n          ],\n          \"@type\": \"ItineraryPart\"\n        }\n      ]\n    }\n  },\n  \"notifications\": []\n}"
+    }
+  ]
+}

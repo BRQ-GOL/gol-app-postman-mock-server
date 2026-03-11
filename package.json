@@ -1,0 +1,8 @@
+{
+  "name": "gol-app-postman-mock-server",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build:collection": "node scripts/build-collection.js"
+  }
+}

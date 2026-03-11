@@ -1,0 +1,49 @@
+{
+  "name": "/ApplicationList/farebasis",
+  "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/ApplicationList/farebasis",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "ApplicationList",
+        "farebasis"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/ApplicationList/farebasis",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "ApplicationList",
+            "farebasis"
+          ]
+        }
+      },
+      "status": "OK",
+      "code": 200,
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [],
+      "body": "{\n  \"key\": \"farebasis\",\n  \"content\": [\n    {\n      \"H2\": [\n        \"2H\",\n        \"3H\",\n        \"4H\"\n      ],\n      \"H8\": [\n        \"2H\",\n        \"3H\",\n        \"4H\"\n      ],\n      \"G3\": [\n        \"1G\",\n        \"2G\",\n        \"3G\",\n        \"4G\",\n        \"5G\",\n        \"1F\",\n        \"2F\",\n        \"3F\",\n        \"4F\",\n        \"5F\",\n        \"1J\",\n        \"2J\",\n        \"3J\",\n        \"4J\",\n        \"5J\",\n        \"6J\",\n        \"7J\",\n        \"1L\",\n        \"2L\",\n        \"3L\",\n        \"4L\",\n        \"5L\",\n        \"6L\",\n        \"7L\"\n      ],\n      \"EB\": [\n        \"1G\",\n        \"2G\",\n        \"3G\",\n        \"4G\",\n        \"5G\",\n        \"1F\",\n        \"2F\",\n        \"3F\",\n        \"4F\",\n        \"5F\",\n        \"1J\",\n        \"2J\",\n        \"3J\",\n        \"4J\",\n        \"5J\",\n        \"6J\",\n        \"7J\",\n        \"1L\",\n        \"2L\",\n        \"3L\",\n        \"4L\",\n        \"5L\",\n        \"6L\",\n        \"7L\"\n      ],\n      \"AF\": [\n        \"LA\",\n        \"SA\",\n        \"FA\",\n        \"JA\",\n        \"KA\",\n        \"2A\",\n        \"3A\",\n        \"4A\",\n        \"5A\",\n        \"6A\"\n      ],\n      \"KL\": [\n        \"LA\",\n        \"SA\",\n        \"FA\",\n        \"JA\",\n        \"KA\",\n        \"2K\",\n        \"3K\",\n        \"4K\",\n        \"5K\",\n        \"6K\"\n      ],\n      \"AM\": [\n        \"2M\",\n        \"3M\",\n        \"6M\"\n      ],\n      \"AR\": [\n        \"2R\",\n        \"3R\",\n        \"4R\",\n        \"5R\"\n      ],\n      \"AV\": [\n        \"2V\",\n        \"3V\",\n        \"4V\",\n        \"6V\"\n      ],\n      \"CM\": [\n        \"2C\",\n        \"3C\",\n        \"6C\"\n      ],\n      \"DT\": [\n        \"3U\",\n        \"4U\",\n        \"6U\"\n      ],\n      \"AC\": [\n        \"2Q\",\n        \"3Q\",\n        \"4Q\",\n        \"5Q\",\n        \"6Q\"\n      ],\n      \"AA\": [\n        \"BZ\",\n        \"M1\",\n        \"N1\",\n        \"MZ\",\n        \"NZ\",\n        \"NV\",\n        \"N5\",\n        \"F5\",\n        \"F1\",\n        \"FZ\"\n      ],\n      \"SA\": [\n        \"2S\",\n        \"3S\",\n        \"4S\",\n        \"6S\"\n      ],\n      \"E4\": [\n        \"3T\",\n        \"4T\"\n      ],\n      \"AD\": [\n        \"2D\",\n        \"3D\",\n        \"4D\"\n      ],\n      \"AT\": [\n        \"3Y\",\n        \"4Y\",\n        \"6Y\"\n      ]\n    }\n  ]\n}"
+    }
+  ]
+}

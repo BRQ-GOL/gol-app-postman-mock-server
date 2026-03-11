@@ -1,0 +1,44 @@
+{
+  "name": "/ApplicationList/BookingDocuments",
+  "request": {
+    "method": "GET",
+    "header": []
+  },
+  "response": [
+    {
+      "name": "Booking documents",
+      "originalRequest": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/ApplicationList/BookingDocuments",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "ApplicationList",
+            "BookingDocuments"
+          ]
+        }
+      },
+      "code": 200,
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [
+        {
+          "expires": "Invalid Date",
+          "domain": "",
+          "path": ""
+        }
+      ],
+      "body": "{\n  \"key\": \"BookingDocuments\",\n  \"content\": [\n    {\n      \"orderNumber\": \"1\",\n      \"docType\": \"P\",\n      \"namePT\": \"Passaporte\",\n      \"nameES\": \"Pasaporte\",\n      \"nameEN\": \"Passport\",\n      \"issueCountryRequired\": true,\n      \"relatedDocuments\": [\n        \"PSPT\"\n      ]\n    },\n    {\n      \"orderNumber\": \"2\",\n      \"docType\": \"I\",\n      \"namePT\": \"CPF\",\n      \"nameES\": \"CPF\",\n      \"nameEN\": \"CPF\",\n      \"issueCountryRequired\": false\n    },\n    {\n      \"orderNumber\": \"3\",\n      \"docType\": \"F\",\n      \"namePT\": \"Carteira de Identidade (RG/CNH/RIC)\",\n      \"nameES\": \"Documento Nacional de Identidad (DNI/CI)\",\n      \"nameEN\": \"National ID Card\",\n      \"issueCountryRequired\": false,\n      \"relatedDocuments\": [\n        \"BRGN\",\n        \"DRLS\",\n        \"NTID\"\n      ]\n    },\n    {\n      \"orderNumber\": \"4\",\n      \"docType\": \"C\",\n      \"namePT\": \"Documento de Residência Permanente\",\n      \"nameES\": \"Tarjeta de Residencia Permanente\",\n      \"nameEN\": \"Permanent Resident Card\",\n      \"issueCountryRequired\": false\n    },\n    {\n      \"orderNumber\": \"5\",\n      \"docType\": \"M\",\n      \"namePT\": \"Identidade Militar\",\n      \"nameES\": \"ID Militar\",\n      \"nameEN\": \"Military ID\",\n      \"issueCountryRequired\": false,\n      \"relatedDocuments\": [\n        \"MLID\"\n      ]\n    },\n    {\n      \"orderNumber\": \"6\",\n      \"docType\": \"T\",\n      \"namePT\": \"Permissão de Reentrada\",\n      \"nameES\": \"Permiso de Reingreso\",\n      \"nameEN\": \"Reentry Permit \",\n      \"issueCountryRequired\": false\n    },\n    {\n      \"orderNumber\": \"7\",\n      \"docType\": \"N\",\n      \"namePT\": \"Certificado de Naturalização Americana\",\n      \"nameES\": \"Certificado de Naturalización de EE. UU.\",\n      \"nameEN\": \"US Naturalisation Certificate\",\n      \"issueCountryRequired\": false\n    },\n    {\n      \"orderNumber\": \"8\",\n      \"docType\": \"F\",\n      \"namePT\": \"Certidão de Nascimento\",\n      \"nameES\": \"Certificado de Nacimiento\",\n      \"nameEN\": \"Birth Certificate\",\n      \"issueCountryRequired\": false\n    }\n  ]\n}"
+    }
+  ]
+}

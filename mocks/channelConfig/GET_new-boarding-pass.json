@@ -1,0 +1,47 @@
+{
+  "name": "/ApplicationList/NewBoardingPass",
+  "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/ApplicationList/NewBoardingPass",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "ApplicationList",
+        "NewBoardingPass"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/ApplicationList/NewBoardingPass",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "ApplicationList",
+            "NewBoardingPass"
+          ]
+        }
+      },
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [],
+      "body": "{\n  \"key\": \"NewBoardingPass\",\n  \"content\": [\n    {\n      \"ContextIsActiveApp\": false,\n      \"ContextIsActiveWeb\": true\n    }\n  ]\n}"
+    }
+  ]
+}

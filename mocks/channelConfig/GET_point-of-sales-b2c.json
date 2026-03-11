@@ -1,0 +1,49 @@
+{
+  "name": "/ApplicationList/PointOfSalesB2C",
+  "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/ApplicationList/PointOfSalesB2C",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "ApplicationList",
+        "PointOfSalesB2C"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/ApplicationList/PointOfSalesB2C",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "ApplicationList",
+            "PointOfSalesB2C"
+          ]
+        }
+      },
+      "status": "OK",
+      "code": 200,
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [],
+      "body": "{\n  \"key\": \"PointOfSalesB2C\",\n  \"content\": [\n    {\n      \"accountingCityCode\": \"SAO\",\n      \"accountingCode\": \"IB\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"ALL\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"BR\",\n      \"currencyCode\": \"BRL\",\n      \"3DSPayment\": false,\n      \"paymentForm\": false,\n      \"active\": true,\n      \"appActive\": true\n    },\n    {\n      \"accountingCityCode\": \"MCO\",\n      \"accountingCode\": \"IB\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"ALL\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"US\",\n      \"currencyCode\": \"USD\",\n      \"3DSPayment\": true,\n      \"paymentForm\": false,\n      \"active\": true,\n      \"appActive\": true\n    },\n    {\n      \"accountingCityCode\": \"BUE\",\n      \"accountingCode\": \"IB\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"ALL\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"AR\",\n      \"currencyCode\": \"ARS\",\n      \"3DSPayment\": false,\n      \"paymentForm\": true,\n      \"active\": true,\n      \"appActive\": true\n    },\n    {\n      \"accountingCityCode\": \"BUE\",\n      \"accountingCode\": \"IB\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"ALL\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"AR\",\n      \"currencyCode\": \"USD\",\n      \"3DSPayment\": true,\n      \"paymentForm\": true,\n      \"active\": true,\n      \"appActive\": false\n    },\n    {\n      \"accountingCityCode\": \"UIO\",\n      \"accountingCode\": \"IB\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"WEB\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"EC\",\n      \"currencyCode\": \"USD\",\n      \"3DSPayment\": true,\n      \"paymentForm\": false,\n      \"active\": true,\n      \"appActive\": false\n    },\n    {\n      \"accountingCityCode\": \"VVI\",\n      \"accountingCode\": \"IB\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"WEB\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"BO\",\n      \"currencyCode\": \"BOB\",\n      \"3DSPayment\": true,\n      \"paymentForm\": false,\n      \"active\": true,\n      \"appActive\": false\n    },\n    {\n      \"accountingCityCode\": \"CUN\",\n      \"accountingCode\": \"IB\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"ALL\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"MX\",\n      \"currencyCode\": \"MXN\",\n      \"3DSPayment\": false,\n      \"paymentForm\": false,\n      \"active\": false,\n      \"appActive\": false\n    },\n    {\n      \"accountingCityCode\": \"LIM\",\n      \"accountingCode\": \"IB\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"WEB\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"PE\",\n      \"currencyCode\": \"USD\",\n      \"3DSPayment\": true,\n      \"paymentForm\": false,\n      \"active\": true,\n      \"appActive\": false\n    },\n    {\n      \"accountingCityCode\": \"MVD\",\n      \"accountingCode\": \"IB\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"ALL\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"UY\",\n      \"currencyCode\": \"USD\",\n      \"3DSPayment\": false,\n      \"paymentForm\": true,\n      \"active\": true,\n      \"appActive\": true\n    },\n    {\n      \"accountingCityCode\": \"SCL\",\n      \"accountingCode\": \"IB\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"WEB\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"CL\",\n      \"currencyCode\": \"CLP\",\n      \"3DSPayment\": true,\n      \"paymentForm\": false,\n      \"active\": true,\n      \"appActive\": false\n    },\n    {\n      \"accountingCityCode\": \"ASU\",\n      \"accountingCode\": \"IB\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"WEB\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"PY\",\n      \"currencyCode\": \"PYG\",\n      \"3DSPayment\": true,\n      \"paymentForm\": false,\n      \"active\": true,\n      \"appActive\": false\n    },\n    {\n      \"accountingCityCode\": \"PUJ\",\n      \"accountingCode\": \"IB\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"WEB\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"DO\",\n      \"currencyCode\": \"DOP\",\n      \"3DSPayment\": true,\n      \"paymentForm\": false,\n      \"active\": true,\n      \"appActive\": false\n    },\n    {\n      \"accountingCityCode\": \"BOG\",\n      \"accountingCode\": \"IB\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"ALL\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"CO\",\n      \"currencyCode\": \"COP\",\n      \"3DSPayment\": false,\n      \"paymentForm\": true,\n      \"active\": true,\n      \"appActive\": false\n    },\n    {\n      \"accountingCityCode\": \"SJO\",\n      \"accountingCode\": \"IB\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"ALL\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"CR\",\n      \"currencyCode\": \"USD\",\n      \"3DSPayment\": false,\n      \"paymentForm\": false,\n      \"active\": true,\n      \"appActive\": false\n    },\n    {\n      \"accountingCityCode\": \"AUA\",\n      \"accountingCode\": \"IB\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"ALL\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"AW\",\n      \"currencyCode\": \"USD\",\n      \"3DSPayment\": false,\n      \"paymentForm\": false,\n      \"active\": false,\n      \"appActive\": false\n    },\n    {\n      \"accountingCityCode\": \"AUA\",\n      \"accountingCode\": \"AP\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"ALL\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"AW\",\n      \"currencyCode\": \"AWG\",\n      \"3DSPayment\": false,\n      \"paymentForm\": false,\n      \"active\": false,\n      \"appActive\": false\n    },\n    {\n      \"accountingCityCode\": \"CCS\",\n      \"accountingCode\": \"AP\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"ALL\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"VE\",\n      \"currencyCode\": \"VES\",\n      \"3DSPayment\": false,\n      \"paymentForm\": false,\n      \"active\": false,\n      \"appActive\": false\n    },\n    {\n      \"accountingCityCode\": \"BPM\",\n      \"accountingCode\": \"AP\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"ALL\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"SR\",\n      \"currencyCode\": \"USD\",\n      \"3DSPayment\": false,\n      \"paymentForm\": false,\n      \"active\": false,\n      \"appActive\": false\n    },\n    {\n      \"accountingCityCode\": \"MCO\",\n      \"accountingCode\": \"IB\",\n      \"bookingPath\": \"B2C\",\n      \"channel\": \"WEB\",\n      \"source\": \"DC\",\n      \"isoCountry\": \"US\",\n      \"currencyCode\": \"USD\",\n      \"3DSPayment\": true,\n      \"paymentForm\": false,\n      \"active\": true,\n      \"appActive\": true\n    }\n  ]\n}"
+    }
+  ]
+}

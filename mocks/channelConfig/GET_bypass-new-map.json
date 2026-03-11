@@ -1,0 +1,49 @@
+{
+  "name": "/ApplicationList/byPassNewMap",
+  "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/ApplicationList/byPassNewMap",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "ApplicationList",
+        "byPassNewMap"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/ApplicationList/byPassNewMap",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "ApplicationList",
+            "byPassNewMap"
+          ]
+        }
+      },
+      "status": "OK",
+      "code": 200,
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [],
+      "body": "{\n  \"key\": \"byPassNewMap\",\n  \"content\": [\n    {\n      \"aircraft\": 332,\n      \"description\": \"wamos\"\n    },\n    {\n      \"aircraft\": 333,\n      \"description\": \"wamos\"\n    },\n    {\n      \"aircraft\": 339,\n      \"description\": \"gol\"\n    }\n  ]\n}"
+    }
+  ]
+}

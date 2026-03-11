@@ -1,0 +1,49 @@
+{
+  "name": "/ApplicationList/ProfileDocuments",
+  "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/ApplicationList/ProfileDocuments",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "ApplicationList",
+        "ProfileDocuments"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/ApplicationList/ProfileDocuments",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "ApplicationList",
+            "ProfileDocuments"
+          ]
+        }
+      },
+      "status": "OK",
+      "code": 200,
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [],
+      "body": "{\n  \"key\": \"ProfileDocuments\",\n  \"content\": [\n    {\n      \"orderNumber\": \"1\",\n      \"docTypeCI\": \"BRGN\",\n      \"namePT\": \"Registro Geral (RG)\",\n      \"nameES\": \"Tarjeta de Identificación Nacional\",\n      \"nameEN\": \"National ID Card\",\n      \"issueCountryRequired\": false\n    },\n    {\n      \"orderNumber\": \"2\",\n      \"docTypeCI\": \"DRLS\",\n      \"namePT\": \"Carteira Nacional de Habilitação\",\n      \"nameES\": \"Cartera nacional de habilitación\",\n      \"nameEN\": \"Drivers Licence\",\n      \"issueCountryRequired\": true\n    },\n    {\n      \"orderNumber\": \"3\",\n      \"docTypeCI\": \"NTID\",\n      \"namePT\": \"Identidade Militar\",\n      \"nameES\": \"Militar Identidad\",\n      \"nameEN\": \"Military ID\",\n      \"issueCountryRequired\": false\n    },\n    {\n      \"orderNumber\": \"4\",\n      \"docType\": \"UNLP\",\n      \"namePT\": \"Laissez - Passer\",\n      \"nameES\": \"Laissez - Passer\",\n      \"nameEN\": \"Laissez - Passer\",\n      \"issueCountryRequired\": false\n    },\n    {\n      \"orderNumber\": \"5\",\n      \"docType\": \"PSPT\",\n      \"namePT\": \"Passaporte\",\n      \"nameES\": \"Pasaporte\",\n      \"nameEN\": \"Passport\",\n      \"issueCountryRequired\": true\n    },\n    {\n      \"orderNumber\": \"6\",\n      \"docType\": \"RDNR\",\n      \"namePT\": \"Redress Number\",\n      \"nameES\": \"Redress Number\",\n      \"nameEN\": \"Redress Number\",\n      \"issueCountryRequired\": false\n    }\n  ]\n}"
+    }
+  ]
+}

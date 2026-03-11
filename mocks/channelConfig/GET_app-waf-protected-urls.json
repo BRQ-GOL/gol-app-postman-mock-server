@@ -1,0 +1,49 @@
+{
+  "name": "/ApplicationList/AppWafProtectedUrls",
+  "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/ApplicationList/AppWafProtectedUrls",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "ApplicationList",
+        "AppWafProtectedUrls"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/ApplicationList/AppWafProtectedUrls",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "ApplicationList",
+            "AppWafProtectedUrls"
+          ]
+        }
+      },
+      "status": "OK",
+      "code": 200,
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [],
+      "body": "{\n  \"key\": \"AppWafProtectedUrls\",\n  \"content\": [\n    {\n      \"url\": \"Profile/authenticate-conversation\"\n    },\n    {\n      \"url\": \"api/sabre-default/flights\"\n    },\n    {\n      \"url\": \"validate-doc/status\"\n    },\n    {\n      \"url\": \"api/Booking/flights-select\"\n    },\n    {\n      \"url\": \"api/Booking/passenger\"\n    },\n    {\n      \"url\": \"api/Score/purchase\"\n    }\n  ]\n}"
+    }
+  ]
+}

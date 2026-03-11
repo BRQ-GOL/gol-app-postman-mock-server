@@ -1,0 +1,55 @@
+{
+  "name": "/ApplicationList/Equipments",
+  "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/ApplicationList/Equipments",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "ApplicationList",
+        "Equipments"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/ApplicationList/Equipments",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "ApplicationList",
+            "Equipments"
+          ]
+        }
+      },
+      "status": "OK",
+      "code": 200,
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [
+        {
+          "expires": "Invalid Date",
+          "domain": "",
+          "path": ""
+        }
+      ],
+      "body": "{\n  \"key\": \"Equipments\",\n  \"content\": [\n    {\n      \"equipmentCode\": \"738\",\n      \"equipmentName\": \"Boeing 737-800\",\n      \"equipmentANACTag\": \"C\",\n      \"equipmentRows\": 33\n    },\n    {\n      \"equipmentCode\": \"73G\",\n      \"equipmentName\": \"Boeing 737-700\",\n      \"equipmentANACTag\": \"C\",\n      \"equipmentRows\": 28\n    },\n    {\n      \"equipmentCode\": \"7M8\",\n      \"equipmentName\": \"Boeing 737-8 Max\",\n      \"equipmentANACTag\": \"C\",\n      \"equipmentRows\": 28\n    },\n    {\n      \"equipmentCode\": \"32N\",\n      \"equipmentName\": \"A320 NEO\",\n      \"equipmentANACTag\": \"C\",\n      \"equipmentRows\": 28\n    },\n    {\n      \"equipmentCode\": \"788\",\n      \"equipmentName\": \"787-8 Dreamliner\",\n      \"equipmentANACTag\": \"c\",\n      \"equipmentRows\": 28\n    }\n  ]\n}"
+    }
+  ]
+}

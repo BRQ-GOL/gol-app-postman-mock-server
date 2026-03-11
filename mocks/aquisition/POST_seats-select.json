@@ -1,0 +1,49 @@
+{
+  "name": "/seats/select",
+  "request": {
+    "method": "POST",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/api/seats/select",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "api",
+        "seats",
+        "select"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/api/seats/select",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "api",
+            "seats",
+            "select"
+          ]
+        }
+      },
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [],
+      "body": "{\n  \"success\": true,\n  \"response\": {\n    \"execution\": \"20a5c054-6176-406d-b6d1-414c2efb7110\",\n    \"seatRequestResult\": {\n      \"messages\": [],\n      \"seatOperationResults\": [\n        {\n          \"seatOperation\": {\n            \"seatCode\": \"7D\",\n            \"selectedSegment\": {\n              \"origin\": \"CGH\",\n              \"destination\": \"SDU\",\n              \"departure\": \"2026-03-18T06:05:00\"\n            },\n            \"passengerIndex\": 1\n          },\n          \"successful\": true\n        }\n      ]\n    }\n  }\n}"
+    }
+  ]
+}

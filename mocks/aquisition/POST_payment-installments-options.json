@@ -1,0 +1,51 @@
+{
+  "name": "/payment/installments-options",
+  "request": {
+    "method": "POST",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/api/payment/installments-options",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "api",
+        "payment",
+        "installments-options"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/api/payment/installments-options",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "api",
+            "payment",
+            "installments-options"
+          ]
+        }
+      },
+      "status": "OK",
+      "code": 200,
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [],
+      "body": "{\n  \"success\": true,\n  \"response\": {\n    \"execution\": \"2161810b-bf2f-4519-bb67-5f76d337777e\",\n    \"installmentsResponse\": {\n      \"cardCode\": \"VI\",\n      \"paymentType\": \"CREDIT_CARD\",\n      \"bin\": \"400355\",\n      \"currency\": \"BRL\",\n      \"installmentOptions\": [\n        {\n          \"installmentId\": \"23092014\",\n          \"numberOfInstallments\": 1,\n          \"totalPaymentAmount\": 2467.04,\n          \"installmentAmount\": 2404.9,\n          \"interestAmount\": 0,\n          \"interestRate\": 0,\n          \"promotionalInd\": false,\n          \"nonInstallmentAmount\": 62.14\n        },\n        {\n          \"installmentId\": \"23092015\",\n          \"numberOfInstallments\": 2,\n          \"totalPaymentAmount\": 2467.04,\n          \"installmentAmount\": 1202.45,\n          \"interestAmount\": 0,\n          \"interestRate\": 0,\n          \"promotionalInd\": false,\n          \"nonInstallmentAmount\": 62.14\n        },\n        {\n          \"installmentId\": \"23092016\",\n          \"numberOfInstallments\": 3,\n          \"totalPaymentAmount\": 2467.04,\n          \"installmentAmount\": 801.63,\n          \"interestAmount\": 0,\n          \"interestRate\": 0,\n          \"promotionalInd\": false,\n          \"nonInstallmentAmount\": 62.14\n        },\n        {\n          \"installmentId\": \"23092017\",\n          \"numberOfInstallments\": 4,\n          \"totalPaymentAmount\": 2467.04,\n          \"installmentAmount\": 601.22,\n          \"interestAmount\": 0,\n          \"interestRate\": 0,\n          \"promotionalInd\": false,\n          \"nonInstallmentAmount\": 62.14\n        },\n        {\n          \"installmentId\": \"23092018\",\n          \"numberOfInstallments\": 5,\n          \"totalPaymentAmount\": 2612.49,\n          \"installmentAmount\": 510.07,\n          \"interestAmount\": 145.45,\n          \"interestRate\": 1.99,\n          \"promotionalInd\": false,\n          \"nonInstallmentAmount\": 62.14\n        },\n        {\n          \"installmentId\": \"23092019\",\n          \"numberOfInstallments\": 6,\n          \"totalPaymentAmount\": 2637.28,\n          \"installmentAmount\": 429.19,\n          \"interestAmount\": 170.24,\n          \"interestRate\": 1.99,\n          \"promotionalInd\": false,\n          \"nonInstallmentAmount\": 62.14\n        },\n        {\n          \"installmentId\": \"23092020\",\n          \"numberOfInstallments\": 7,\n          \"totalPaymentAmount\": 2662.22,\n          \"installmentAmount\": 371.44,\n          \"interestAmount\": 195.18,\n          \"interestRate\": 1.99,\n          \"promotionalInd\": false,\n          \"nonInstallmentAmount\": 62.14\n        },\n        {\n          \"installmentId\": \"23092021\",\n          \"numberOfInstallments\": 8,\n          \"totalPaymentAmount\": 2687.34,\n          \"installmentAmount\": 328.15,\n          \"interestAmount\": 220.3,\n          \"interestRate\": 1.99,\n          \"promotionalInd\": false,\n          \"nonInstallmentAmount\": 62.14\n        },\n        {\n          \"installmentId\": \"23092022\",\n          \"numberOfInstallments\": 9,\n          \"totalPaymentAmount\": 2712.64,\n          \"installmentAmount\": 294.5,\n          \"interestAmount\": 245.6,\n          \"interestRate\": 1.99,\n          \"promotionalInd\": false,\n          \"nonInstallmentAmount\": 62.14\n        },\n        {\n          \"installmentId\": \"23092023\",\n          \"numberOfInstallments\": 10,\n          \"totalPaymentAmount\": 2738.04,\n          \"installmentAmount\": 267.59,\n          \"interestAmount\": 271,\n          \"interestRate\": 1.99,\n          \"promotionalInd\": false,\n          \"nonInstallmentAmount\": 62.14\n        },\n        {\n          \"installmentId\": \"23092024\",\n          \"numberOfInstallments\": 11,\n          \"totalPaymentAmount\": 2763.63,\n          \"installmentAmount\": 245.59,\n          \"interestAmount\": 296.59,\n          \"interestRate\": 1.99,\n          \"promotionalInd\": false,\n          \"nonInstallmentAmount\": 62.14\n        },\n        {\n          \"installmentId\": \"23092025\",\n          \"numberOfInstallments\": 12,\n          \"totalPaymentAmount\": 2789.38,\n          \"installmentAmount\": 227.27,\n          \"interestAmount\": 322.34,\n          \"interestRate\": 1.99,\n          \"promotionalInd\": false,\n          \"nonInstallmentAmount\": 62.14\n        }\n      ]\n    }\n  }\n}"
+    }
+  ]
+}

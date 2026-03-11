@@ -1,0 +1,51 @@
+{
+  "name": "/cost/estimate",
+  "request": {
+    "method": "POST",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/api/cost/estimate",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "api",
+        "cost",
+        "estimate"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/api/cost/estimate",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "api",
+            "cost",
+            "estimate"
+          ]
+        }
+      },
+      "status": "OK",
+      "code": 200,
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [],
+      "body": "{\n  \"success\": true,\n  \"response\": {\n    \"costEstimateReference\": \"C89VQDSTZNLNZSG6\",\n    \"resultCode\": \"Unsupported\",\n    \"surchargeType\": \"UNLIMITED\",\n    \"costEstimateAmount\": {},\n    \"cardBin\": {\n      \"bin\": \"400355\",\n      \"issuingCountry\": \"TW\",\n      \"paymentMethod\": \"visasuperpremiumcredit\",\n      \"fopCode\": \"VI\",\n      \"summary\": \"0001\",\n      \"issuingBank\": \"TAISHIN INTERNATIONAL BANK\"\n    }\n  }\n}"
+    }
+  ]
+}

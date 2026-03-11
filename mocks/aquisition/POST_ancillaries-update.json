@@ -1,0 +1,51 @@
+{
+  "name": "/ancillaries/update",
+  "request": {
+    "method": "POST",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/api/ancillaries/update",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "api",
+        "ancillaries",
+        "update"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "POST",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/api/ancillaries/update",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "api",
+            "ancillaries",
+            "update"
+          ]
+        }
+      },
+      "status": "OK",
+      "code": 200,
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [],
+      "body": "{\n  \"success\": true,\n  \"response\": {\n    \"execution\": \"d18c0179-a785-4f89-a804-0b5661c0dbfd\",\n    \"ancillaryResult\": {\n      \"messages\": [],\n      \"ancillaryOperationResults\": [\n        {\n          \"ancillaryCode\": \"0C3\",\n          \"selectedTravelPart\": {\n            \"origin\": \"CGH\",\n            \"destination\": \"SDU\",\n            \"departure\": \"2026-03-18T06:05:00\",\n            \"type\": \"ITINERARY_PART\"\n          },\n          \"passengerIndex\": 1,\n          \"successful\": true,\n          \"assignedQuantity\": 1\n        },\n        {\n          \"ancillaryCode\": \"0JT\",\n          \"selectedTravelPart\": {\n            \"origin\": \"CGH\",\n            \"destination\": \"SDU\",\n            \"departure\": \"2026-03-18T06:05:00\",\n            \"type\": \"ITINERARY_PART\"\n          },\n          \"passengerIndex\": 1,\n          \"successful\": true,\n          \"assignedQuantity\": 1\n        }\n      ]\n    }\n  }\n}"
+    }
+  ]
+}

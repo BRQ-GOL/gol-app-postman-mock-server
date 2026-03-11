@@ -1,0 +1,47 @@
+{
+  "name": "/ApplicationList/over100years",
+  "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/ApplicationList/over100years",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "ApplicationList",
+        "over100years"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/ApplicationList/over100years",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "ApplicationList",
+            "over100years"
+          ]
+        }
+      },
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [],
+      "body": "{\n    \"key\": \"over100years\",\n    \"content\": [\n        {\n            \"PT\": {\n                \"warningtext\": \"Para emissões com viajantes maiores de 100 anos, entre em contato com a Central de Atendimento pelo telefone 0300 115 2121.\",\n                \"callbutton\": true,\n                \"callnumber\": \"03001152121\"\n            },\n            \"ES\": {\n                \"warningtext\": \"Para problemas con viajeros mayores de 100 años, comuníquese con el Centro de Atención al Cliente.\",\n                \"callbutton\": false,\n                \"callnumber\": null\n            },\n            \"US\": {\n                \"warningtext\": \"For issues with travelers over 100 years old, contact the Customer Service Center.\",\n                \"callbutton\": false,\n                \"callnumber\": null\n            }\n        }\n    ]\n}"
+    }
+  ]
+}

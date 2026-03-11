@@ -1,0 +1,55 @@
+{
+  "name": "/ApplicationList/FavoriteDocuments",
+  "request": {
+    "method": "GET",
+    "header": [],
+    "url": {
+      "raw": "{{url}}/ApplicationList/FavoriteDocuments",
+      "host": [
+        "{{url}}"
+      ],
+      "path": [
+        "ApplicationList",
+        "FavoriteDocuments"
+      ]
+    }
+  },
+  "response": [
+    {
+      "name": "Sucesso",
+      "originalRequest": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{url}}/ApplicationList/FavoriteDocuments",
+          "host": [
+            "{{url}}"
+          ],
+          "path": [
+            "ApplicationList",
+            "FavoriteDocuments"
+          ]
+        }
+      },
+      "status": "OK",
+      "code": 200,
+      "_postman_previewlanguage": "json",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "",
+          "type": "text"
+        }
+      ],
+      "cookie": [
+        {
+          "expires": "Invalid Date",
+          "domain": "",
+          "path": ""
+        }
+      ],
+      "body": "{\n  \"key\": \"FavoriteDocuments\",\n  \"content\": [\n    {\n      \"orderNumber\": \"1\",\n      \"docType\": \"BRGN\",\n      \"namePT\": \"Carteira de Identidade (RG)\",\n      \"nameES\": \"Tarjeta de Identificación Nacional\",\n      \"nameEN\": \"National ID Card\",\n      \"issueCountryRequired\": false\n    },\n    {\n      \"orderNumber\": \"2\",\n      \"docType\": \"DRLS\",\n      \"namePT\": \"Carteira de Motorista (CNH)\",\n      \"nameES\": \"Permiso de Conducir\",\n      \"nameEN\": \"Driver's Licence\",\n      \"issueCountryRequired\": false\n    },\n    {\n      \"orderNumber\": \"3\",\n      \"docType\": \"NTID\",\n      \"namePT\": \"National ID Card\",\n      \"nameES\": \"National ID Card\",\n      \"nameEN\": \"National ID Card\",\n      \"issueCountryRequired\": false\n    },\n    {\n      \"orderNumber\": \"4\",\n      \"docType\": \"PSPT\",\n      \"namePT\": \"Passaporte\",\n      \"nameES\": \"Pasaporte\",\n      \"nameEN\": \"Passport\",\n      \"issueCountryRequired\": true\n    },\n    {\n      \"orderNumber\": \"5\",\n      \"docType\": \"MLID\",\n      \"namePT\": \"Identidade Militar\",\n      \"nameES\": \"ID Militar\",\n      \"nameEN\": \"Military ID\",\n      \"issueCountryRequired\": false\n    }\n  ]\n}"
+    }
+  ]
+}
