@@ -1,5 +1,5 @@
 {
-  "name": "/authentication/create-token",
+  "name": "/authentication/create-token request",
   "request": {
     "method": "GET",
     "header": [],
